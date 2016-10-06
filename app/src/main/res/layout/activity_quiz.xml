@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Capital of Turkey is Istanbul not Constanpol"
+        android:id="@+id/question_text"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_weight="0.20" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="True"
+
+        android:id="@+id/true_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:id="@+id/false_button" />
+
+    </LinearLayout>
+</LinearLayout>
